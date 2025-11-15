@@ -31,42 +31,42 @@ test_language_interface/
 ## ▶️ Запуск теста
 
 Пример запуска на испанском:
-
+```bash
 pytest --language=es test_items.py
-
+```
 
 На французском:
-
+```bash
 pytest --language=fr test_items.py
-
+```
 
 На русском:
-
+```bash
 pytest --language=ru test_items.py
-
+```
 
 ---
 
 ## ✔ Что проверяет тест
 
 Тест открывает страницу:
-
+```bash
 http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/
-
+```
 
 и проверяет наличие кнопки:
-
+```bash
 .btn-add-to-basket
-
+```
 
 ---
 
 ## 📝 Примечание
 
 Если получите ошибку:
-
+```bash
 ValueError: option names {'--language'} already added
-
+```
 
 Проверьте, нет ли другого conftest.py выше по директории.
 
